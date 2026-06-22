@@ -1,0 +1,66 @@
+:root{
+    --primary:#0d6efd;
+    --dark:#0f172a;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    overflow-x:hidden;
+}
+
+.hero{
+    min-height:100vh;
+    background:#0f172a;
+    color:white;
+    position:relative;
+}
+
+.hero-image{
+    width:350px;
+    border-radius:50%;
+    border:5px solid #0d6efd;
+}
+
+.skill-card{
+    text-align:center;
+    padding:30px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+}
+
+.skill-card i{
+    font-size:3rem;
+    color:#0d6efd;
+}
+
+.project-card{
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow:0 5px 25px rgba(0,0,0,.1);
+}
+
+.project-card img{
+    transition:.5s;
+}
+
+.project-card:hover img{
+    transform:scale(1.1);
+}
+
+.footer{
+    background:#0f172a;
+    color:white;
+    padding:40px;
+}
+
+.socials a{
+    color:white;
+    margin:10px;
+    font-size:25px;
+}
