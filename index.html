@@ -276,35 +276,99 @@
 
 <!-- Contact -->
 <section id="contact" class="py-5 bg-dark text-white">
-
     <div class="container">
 
         <h2 class="text-center mb-4">
-            Contact
+            Contactez-moi
         </h2>
 
-        <form class="col-md-8 mx-auto">
+        <p class="text-center mb-5">
+            Vous avez un projet, une proposition de stage ou une collaboration ?
+            Envoyez-moi un message.
+        </p>
 
-            <input type="text"
-                   class="form-control mb-3"
-                   placeholder="Nom">
+        <div class="row justify-content-center">
 
-            <input type="email"
-                   class="form-control mb-3"
-                   placeholder="Email">
+            <div class="col-lg-8">
 
-            <textarea
-                class="form-control mb-3"
-                rows="5"
-                placeholder="Message"></textarea>
+                <form
+                    action="https://formspree.io/f/xbdvonoq"
+                    method="POST">
 
-            <button class="btn btn-primary w-100">
-                Envoyer
-            </button>
+                    <div class="mb-3">
 
-        </form>
+                        <label class="form-label">
+                            Nom
+                        </label>
+
+                        <input
+                            type="text"
+                            name="Nom"
+                            class="form-control"
+                            required>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label class="form-label">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            name="Email"
+                            class="form-control"
+                            required>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label class="form-label">
+                            Sujet
+                        </label>
+
+                        <input
+                            type="text"
+                            name="Sujet"
+                            class="form-control"
+                            required>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label class="form-label">
+                            Message
+                        </label>
+
+                        <textarea
+                            name="Message"
+                            rows="6"
+                            class="form-control"
+                            required></textarea>
+
+                    </div>
+                    <input
+                    type="hidden"
+                    name="_next"
+                    value="https://sta-code.github.io/my-site/merci.html">
+                    <button
+                        class="btn btn-primary w-100">
+
+                        Envoyer le message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
 
     </div>
+
 </section>
 
 
